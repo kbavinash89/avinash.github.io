@@ -30,7 +30,7 @@ myApp.config(function($routeProvider) {
             controller: "acadCtrl"
         })
 	.otherwise({
-		redirectTo: "/about.html"
+		redirectTo: "/about"
 	});
 });
 
