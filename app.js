@@ -2,9 +2,7 @@ var myApp = angular.module("myApp", ["ngRoute", "ngAnimate"]);
 
 myApp.config(function($routeProvider) {
 	$routeProvider
-	        .when("/", {
-            templateUrl : "about.html"
-        })
+
 		.when("/skills", {
 			templateUrl: "partials/skill-list.html",
 			controller: "BookListCtrl"
