@@ -27,7 +27,7 @@ myApp.config(function($routeProvider) {
             controller: "acadCtrl"
         })
 	.otherwise({
-		redirectTo: "/index.html"
+		redirectTo: "/about.html"
 	});
 });
 
